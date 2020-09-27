@@ -1,0 +1,8 @@
+.blog-detail-content {
+  visibility: visible !important;
+  max-height: none !important;
+}
+
+.read-more {
+  display: none !important;
+}

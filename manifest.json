@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Rice Bowl Bypass Download App",
+  "version": "0.1.0",
+  "description": "Rice Bowl Hack",
+
+  "content_scripts": [
+    {
+      "css": ["styles.css"],
+      "js": ["content.js"],
+      "matches": ["https://blog.ricebowl.my/*"]
+    }
+  ]
+}
